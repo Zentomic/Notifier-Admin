@@ -39,8 +39,8 @@
     "pack:electron-linux32": "npm run electron:pre && npm run pack:electron -- --platform=linux --arch=ia32 --icon=src/electron/app.ico",
     "pack:cordova-ios": "cordova platform add ios && cordova build ios",
     "pack:cordova-android": "cordova platform add ios && cordova build android",
-    "preinstall":   "npm install -g http-server",
-    "postinstall": "ng build --aot -prod"
+    "preinstall": "npm install -g http-server",
+    "postinstall": "ng build && mv dist/* ."
   },
   "dependencies": {
     "@angular/cli": "1.0.0-beta.30",

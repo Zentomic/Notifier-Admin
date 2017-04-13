@@ -27,7 +27,7 @@ export class PagesSignupComponent implements OnInit {
       },
       'submit': function () {
         //custom code here
-        this.router.navigate(['pages-signin']);
+        router.navigate(['pages-signin']);
       },
     };
   }
