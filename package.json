@@ -40,7 +40,7 @@
     "pack:cordova-ios": "cordova platform add ios && cordova build ios",
     "pack:cordova-android": "cordova platform add ios && cordova build android",
     "preinstall":   "npm install -g http-server",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build -prod"
   },
   "dependencies": {
     "@angular/cli": "1.0.0-beta.30",
